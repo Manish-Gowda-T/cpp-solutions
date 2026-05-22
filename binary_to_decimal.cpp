@@ -15,7 +15,7 @@ int Binary2decimal(int binNum) {
 
 int main() {
   int binNum;
-  cout << "Enter the binary value for which u want to know the decimal";
+  cout << "Enter the binary value for which u want to know the decimal : ";
   std::cin >> binNum;
   int binNum_answer = Binary2decimal(binNum);
   std::cout << binNum_answer;
