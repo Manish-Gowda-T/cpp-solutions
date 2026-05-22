@@ -16,7 +16,7 @@ int decNum(int num) {
 
 int main() {
   int num;
-  std::cout << "Enter the number for which u have to find the binary "
+  std::cout << "Enter the number for which u have to find the binary: "
                "representation: ";
   std::cin >> num;
   int Binary_representation = decNum(num);
